@@ -1,0 +1,14 @@
+{
+  "name": "esp32-ai-voice-receptionist-sim",
+  "sample_rate": 16000,
+  "devices": {
+    "pir": "virtual",
+    "mic": "virtual",
+    "speaker": "virtual",
+    "display": "virtual_sh1106"
+  },
+  "default_events": [
+    {"step": 1, "event": "motion_on"},
+    {"step": 5, "event": "motion_off"}
+  ]
+}
